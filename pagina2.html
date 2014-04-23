@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>pagina2</title>
+		<meta name="description" content="">
+		<meta name="author" content="Seba">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" id="pagina2">
+			<div data-role="header">
+				<h1>Pantalla 2</h1>
+				<a href="index.html" data-rel="back">Atr&aacute;s</a>
+			</div>
+			<div data-role="content">
+				
+				<div data-role="collapsible-set">
+					<div data-role="collapsible" data-theme="b">
+						<!-- importante que tengo un titulo para que se le aplique al data-role="collapsible" -->
+						<h1> Contenido 1</h1>
+						<p>
+							Hola este es el contenido 1 de la pagina 2
+						</p>
+					</div>
+					<div data-role="collapsible" data-theme="b">
+						<h1>Contenido 2</h1>
+						<p>
+							Hola este es el contenido 2 de la pagina 2
+						</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- footer -->
+			<div data-role="footer" data-theme="a" data-position="fixed" data-id="footer_fijo">
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<a href="#agregar" data-icon="plus" data-role="button">Agregar</a>
+					</div>
+					<div class="ui-block-b">
+						<a href="#eliminar" data-icon="delete" data-role="button">Eliminar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

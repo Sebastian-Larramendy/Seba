@@ -1,0 +1,103 @@
+<!-- 
+VER CON JUAN: 
+	1) AL PONER LA CLASS="UI-BAR" PARA QUE FUNCIONE LA POSISION FIJA, SE DES-CENTRA EL TITULO 
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>index</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Seba" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	</head>
+
+	<body>
+		<div data-role="page" id="inicio" data-theme="b">
+			<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>Inicio</h1>
+			</div>
+			
+			<div data-role="content">
+		
+				<ul data-role="listview" data-filter="true" data-dividertheme="a" data-filter-placeHolder="Buscar...">
+					<li data-role="list-divider">P&aacute;ginas</li>
+					<li>
+						<a href="pagina2.html" data-transition="slide"> Pantalla 2</a>
+					</li>
+					<li>
+						<a href="pagina3.html" data-transition="slide"> Pantalla 3 </a>
+					</li>
+					<li>
+						<a href="pagina4.html" data-transition="slide"> Pantalla 4 </a>
+					</li>
+					<li>
+						<a href="pagina5.html" data-transition="slide"> Pantalla 5 </a>
+					</li>
+					<li>
+						<a href="pagina6.html" data-transition="slide"> Pantalla 6 </a>
+					</li>
+					<li>
+						<a href="pagina7.html" data-transition="slide" data-rel="dialog"> Pantalla 7 </a>
+					</li>
+					
+					<li data-role="list-divider">Lenguajes</li>
+					<li>
+						<a href="c.html" data-transition="slide">C</a>
+						<a href="c++.html">C++</a>
+					</li>
+					<li>
+						<a href="php.html" data-transition="slide">
+							<img src="img/php.png" class="ui-li-icon"/>PHP
+						</a>
+					</li>
+					<li>
+						<a href="java.html" data-transition="slide">JAVA<span class="ui-li-count">25</span></a>
+					</li>
+					<li>
+						<a href="pascal.html" data-transition="slide">PASCAL</a>
+					</li>
+				</ul>
+				<p>
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+					sdkjjfgsjkfsjkfvsfvsfsfsfsdfgsdghdsghfshffssdfsdfhsfsvfysfuysuabvasygdyadvaytdydasytdfaydufayjvadyt
+				</p>
+			</div>
+			
+			<!-- footer -->
+			<div data-role="footer" data-theme="a" data-position="fixed" data-id="footer_fijo">
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<a href="#agregar" data-icon="plus" data-role="button">Agregar</a>
+					</div>
+					<div class="ui-block-b">
+						<a href="#eliminar" data-icon="delete" data-role="button">Eliminar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
